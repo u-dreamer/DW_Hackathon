@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <script src="pong.js"></script>
+  </head>
+  <body>
+  <form id="validation">
+    <fieldset>
+    <p id="FirstName">
+      <label for="txtFirstName">First Name:</label>
+      <input id="txtFirstName" name="txtFirstName" type="text" />
+    </p>
+
+    <p id="LastName">
+      <label for="txtLastName">Last Name:</label>
+      <input id="txtLastName" name="txtLastName" type="text" />
+    </p>
+
+    <p id="Email">
+      <label for="txtEmail">Email</label>
+      <input id="txtEmail" name="txtEmail" type="text" />
+
+    </p>
+    <p id="Phone">
+      <label for="txtPhone">Phone: </label>
+      <input id="txtPhone" name="txtPhone" type="text" />
+
+    </p>
+    <p id="Address">
+      <label for="txtAddress">Address: </label>
+      <input id="txtAddress" name="txtAddress" type="text" />
+
+    </p>
+
+    <input onClick="validate()" type="button" id="btnValidate" name="btnValidate" value="Validate"/>
+    <iframe style="opacity: 0;" height="500" width="600" scrolling="no"></iframe>
+
+  </fieldset>
+</form>
+
+
+
+  </body>
+</html>
